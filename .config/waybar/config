@@ -1,0 +1,70 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 36,
+
+  "margin-top": 0,
+  "margin-left": 180,
+  "margin-right": 180,
+
+  "modules-left": [
+    "custom/launcher",
+    "mango/workspaces"
+  ],
+
+  "modules-center": [
+    "clock"
+  ],
+
+  "modules-right": [
+    "mango/language",
+    "network",
+    "pulseaudio",
+    "custom/power"
+  ],
+ 
+  "custom/launcher": {
+     "format": " 󱓞 ",
+    "tooltip": "Apps",
+    "on-click": "fuzzel"
+  },
+
+  "mango/workspaces": {
+    "format": "{name}",
+    "hide-empty": true,
+    "on-click": "activate"
+  },
+
+  "mango/language": {
+    "format": "{}",
+    "format-en": "us 󰌌 ",
+    "format-ru": "ru 󰌌 "
+  },
+
+  "clock": {
+    "format": "{:%a  %d %b     %H:%M}"    
+  },
+
+  "network": {
+    "format-wifi": "  {essid}",
+    "format-ethernet": "lan 󰌘",
+    "format-disconnected": "wrong ",
+    "tooltip-format": "{ifname} via {gwaddr}"
+  },
+
+  "pulseaudio": {
+    "format": "vol {volume}%",
+    "format-muted": "muted  ",
+    "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
+    "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%",
+    "on-click": "pavucontrol",
+    "on-click-right": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+  },
+
+  "custom/power": {
+    "format": "󰦺 ",
+    "on-click": "wlogout",
+    "tooltip": true,
+    "tooltip-format": "wlogout"
+  }
+}
