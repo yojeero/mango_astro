@@ -34,7 +34,7 @@ Mango Dotfiles
 **JetBrains Mono** - system font and interface.
 
 **Clear Sans 10** - System Font  
-**Osaka-Dark-Solarized.tar** - Theme  
+**Osaka-Dark-Solarized** - Theme  
 **Gruvbox** - Icons
 
 ### Installation
