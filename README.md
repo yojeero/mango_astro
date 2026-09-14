@@ -2,7 +2,7 @@
 
 🐧
 
-Mango Dotfiles
+`Mango Dotfiles`   
 
 `Arch`   
 
