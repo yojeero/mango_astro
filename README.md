@@ -2,9 +2,11 @@
 
 🐧
 
-`Mango Dotfiles`   
+Mango Dotfiles   
 
 `Arch`   
+
+:secret:   
 
 <br>
 
