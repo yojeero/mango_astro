@@ -138,10 +138,6 @@ imv \
    rhythmbox \
    imagemagick \
    ffmpeg
-
-lxappearance \
-   glib2 \
-   gcolor3
 ```
 
 #### 5. Installing FISH
