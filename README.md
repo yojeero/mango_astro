@@ -14,7 +14,7 @@
 | **Viewer**                           | `imv`                     |
 | **Logout menu**                      | `wlogout`                 |
 
-## Fonts / Theme
+### Fonts / Theme
 
 **Symbols Nerd Font** - icons, interface, development.  
 **JetBrains Mono** - system font and interface.
@@ -138,7 +138,7 @@ paru -S fish
 chsh -s $(command -v fish)
 ```
 
-## Home Structure
+### Home Structure
 
 ```text
 ~/
@@ -162,7 +162,7 @@ chsh -s $(command -v fish)
 
 > Create folder **Screen** for saving screenshots via grim.
 
-### Login TTY
+## Login TTY
 
 > ### Mango > use Bash or ZSH or FISH
 
