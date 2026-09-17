@@ -162,7 +162,7 @@ chsh -s $(command -v fish)
 
 > Create folder **Screen** for saving screenshots via grim.
 
-### :label: Login via TTY
+### :label: Login TTY
 
 > ### Mango > use Bash or ZSH or FISH
 
@@ -199,7 +199,7 @@ if status is-login
 end
 ```
 
-### :label: Login to the Mango
+### :label: Login Mango
 
 > Arch Linux > login > pass
 
@@ -252,7 +252,7 @@ if status is-interactive; and test (tty) = "/dev/tty1"
 end
 ```
 
-### :label: Login to the Mango or Sway
+### :label: Login Mango or Sway
 
     ├── [1] Mango (Wayland)
     ├── [2] Sway (Wayland)
