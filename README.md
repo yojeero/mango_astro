@@ -167,7 +167,8 @@ chsh -s $(command -v fish)
 
 ### 🐧 Login TTY
 
-> ### Mango > use Bash or ZSH or FISH
+> [!NOTE]
+> Mango > use Bash or ZSH or FISH
 
 #### .bash_profile
 
@@ -207,10 +208,11 @@ end
 > [!TIP]
 > Arch Linux > login > pass
 
-> #### Mango + Sway 
+### 🐧 Mango + Sway 
 
 #### config.fish
 
+> [!TIP]
 > Interactive session selection when logging into TTY1
 
 ```
