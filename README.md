@@ -23,7 +23,7 @@
 **Osaka-Dark-Solarized** - Theme  
 **Gruvbox** - Icons
 
-## :books: Installation
+### 🧼 Installation
 
 #### 1. Boot to the Arch iso
 
@@ -44,6 +44,7 @@ sudo pacman -S \
       polkit
 ```
 
+> [!IMPORTANT]
 > sudo systemctl enable --now seatd
 > sudo usermod -aG seat $USER
 
@@ -156,13 +157,15 @@ chsh -s $(command -v fish)
 
 #### Used Dots, Icons, Themes, Wallpapers
 
+> [!NOTE]
 > [yojeero/config_linux](https://github.com/yojeero/config_linux)
 
 #### Folder for screenshots
 
+> [!NOTE]
 > Create folder **Screen** for saving screenshots via grim.
 
-### :label: Login TTY
+### 🐧 Login TTY
 
 > ### Mango > use Bash or ZSH or FISH
 
@@ -199,10 +202,10 @@ if status is-login
 end
 ```
 
-### :label: Login Mango
+### 🐧 Login Mango
 
+> [!TIP]
 > Arch Linux > login > pass
-
 
 > #### Mango + Sway 
 
@@ -252,7 +255,7 @@ if status is-interactive; and test (tty) = "/dev/tty1"
 end
 ```
 
-### :label: Login Mango or Sway
+### 🐧 Login Mango or Sway
 
     ├── [1] Mango (Wayland)
     ├── [2] Sway (Wayland)
