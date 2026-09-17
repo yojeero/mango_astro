@@ -1,7 +1,7 @@
-<img src="screen/1.png" alt="Preview" width="50%" max-width="800px"><img src="screen/2.png" alt="Preview" width="50%" max-width="800px">
-<img src="screen/3.png" alt="Preview" width="50%" max-width="800px"><img src="screen/4.png" alt="Preview" width="50%" max-width="800px">
+<img src="screen/1.png" alt="Preview" width="50%"><img src="screen/2.png" alt="Preview" width="50%">
+<img src="screen/3.png" alt="Preview" width="50%"><img src="screen/4.png" alt="Preview" width="50%">
 
-# Mango `Arch`   
+<img src="https://img.shields.io/badge/Mango_Arch-7678ed?style=for-the-badge" width="40%" alt="Mango Arch">
 
 | **Window Manager** <img width="60"/> | `mango` <img width="140"/> |
 | :----------------------------------- | :------------------------ |
@@ -14,7 +14,7 @@
 | **Viewer**                           | `imv`                     |
 | **Logout menu**                      | `wlogout`                 |
 
-### Fonts / Theme
+#### Fonts / Theme
 
 **Symbols Nerd Font** - icons, interface, development.  
 **JetBrains Mono** - system font and interface.
@@ -23,9 +23,9 @@
 **Osaka-Dark-Solarized** - Theme  
 **Gruvbox** - Icons
 
-## Installation
+## :books: Installation
 
-### 1. Boot to the Arch iso
+#### 1. Boot to the Arch iso
 
 ```
 archinstall
@@ -33,7 +33,7 @@ archinstall
 on the step - profile - select > desktop > sway
 ```
 
-### 2. After installing - Reboot and update system
+#### 2. After installing - Reboot and update system
 
 ```
 sudo pacman -Syu
@@ -47,7 +47,7 @@ sudo pacman -S \
 > sudo systemctl enable --now seatd
 > sudo usermod -aG seat $USER
 
-### 3. Installing Mango
+#### 3. Installing Mango
 
 ```
 sudo pacman -S --needed base-devel git
@@ -81,7 +81,7 @@ mangowm-git \
       slurp
 ```
 
-### 4. Installing Pkgs
+#### 4. Installing Pkgs
 
 ```
 paru -S \
@@ -130,7 +130,7 @@ imv \
    ffmpeg
 ```
 
-### 5. Installing FISH
+#### 5. Installing FISH
 
 ```
 paru -S fish 
@@ -138,7 +138,7 @@ paru -S fish
 chsh -s $(command -v fish)
 ```
 
-### Home Structure
+#### Home Structure
 
 ```text
 ~/
@@ -154,19 +154,19 @@ chsh -s $(command -v fish)
     └── foot/
 ```
 
-### Used Dots, Icons, Themes, Wallpapers
+#### Used Dots, Icons, Themes, Wallpapers
 
 > [yojeero/config_linux](https://github.com/yojeero/config_linux)
 
-### Folder for screenshots
+#### Folder for screenshots
 
 > Create folder **Screen** for saving screenshots via grim.
 
-## Login TTY
+### :label: Login via TTY
 
 > ### Mango > use Bash or ZSH or FISH
 
-### .bash_profile
+#### .bash_profile
 
 ```
 if [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]]; then
@@ -174,7 +174,7 @@ if [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]]; then
 fi
 ```
 
-### .zprofile
+#### .zprofile
 
 ```
 if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
@@ -182,7 +182,7 @@ if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
 fi
 ```
 
-### config.fish
+#### config.fish
 
 ```
 if status is-login
@@ -199,14 +199,14 @@ if status is-login
 end
 ```
 
-## Login to Mango
+### :label: Login to the Mango
 
 > Arch Linux > login > pass
 
 
-> ### Mango + Sway 
+> #### Mango + Sway 
 
-### config.fish
+#### config.fish
 
 > Interactive session selection when logging into TTY1
 
@@ -252,7 +252,7 @@ if status is-interactive; and test (tty) = "/dev/tty1"
 end
 ```
 
-## Login to Mango or Sway
+### :label: Login to the Mango or Sway
 
     ├── [1] Mango (Wayland)
     ├── [2] Sway (Wayland)
